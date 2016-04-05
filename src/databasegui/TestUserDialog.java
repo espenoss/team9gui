@@ -36,7 +36,7 @@ class Parentwindow extends JFrame {
 class TestUserDialog {
   static public void main(String[] args) {
 	Parentwindow test = new Parentwindow();
-    test.setSize(300, 200);  // for å få litt størrelse på vinduet
+    test.setSize(900, 600);  // for å få litt størrelse på vinduet
     test.setVisible(true);
   }   
 }  

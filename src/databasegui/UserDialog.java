@@ -42,8 +42,8 @@ public class UserDialog extends MyDialog{
 		roleField.setText(user.getRole());
 		passwordField.setText(user.getPassword());
 		setOK(false);
-		pack();
-		usernameField.requestFocusInWindow();
+		//pack();
+	//	usernameField.requestFocusInWindow();
 		setVisible(true);
 		if(isOK()){
 			user.setUsername(usernameField.getText());

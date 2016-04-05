@@ -38,7 +38,7 @@ public class User implements java.io.Serializable{
 			return true;
 		}
 		User p=(User)obj;
-		return (username==p.getUsername()&&password==p.getPassword());
+		return (username==p.getUsername()&&password==p.getPassword()&&role==p.getRole());
 	}
 	public String toString(){
 		return username+" "+ role +" "+password;
