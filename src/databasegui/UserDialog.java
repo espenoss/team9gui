@@ -59,7 +59,7 @@ public class UserDialog extends MyDialog{
 		String username = usernameField.getText().trim();
 		String role = roleField.getText().trim();
 		String password = passwordField.getText().trim();
-		if(username.equals("")|| password.equals("")){
+		if(username.equals("")|| password.equals("") || role.equals("")){
 			showMessageDialog(UserDialog.this, "Username, role and password must be given.");
 			/*if(!username.equals("")){
 				usernameField.requestFocusInWindow();
