@@ -7,7 +7,7 @@ import databasegui.User;
 import databasegui.UserDialog;
 
 class Parentwindow extends JFrame {
-  private User user = new User("", "");
+  private User user = new User("", "","");
   private UserDialog dialog = new UserDialog(this);
 
   public Parentwindow() {
